@@ -2,7 +2,7 @@
 #include<iostream>
 #include<fstream>
 #include <sstream>
-using namespace std;
+using namespace std;//123123123
 int Graphlnk::getWeight(int v1,int v2)
 {
 	if( v1 != -1 && v2 != -1)
