@@ -4,7 +4,8 @@
 #include <sstream>
 using namespace std;
 bool Graphlnk::removeEdge(int v1,int v2)//Õº…œ…æ“ªÃı±ﬂ 
- {
+ {  
+	cout << "xiongruoting " << endl;
  	 if(v1!=-1&&v2!=-1)
 	  {
 	  	Edge*p=NodeTable[v1].adj,*q=NULL,*s=p;
