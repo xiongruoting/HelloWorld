@@ -1,8 +1,8 @@
-#include"Graph.h"
+#include"Graph.h" 
 #include<iostream>
 #include<fstream>
 #include <sstream>
-using namespace std;//123123123
+using namespace std;
 int Graphlnk::getWeight(int v1,int v2)
 {
 	if( v1 != -1 && v2 != -1)
@@ -19,6 +19,7 @@ int Graphlnk::getWeight(int v1,int v2)
 }
  int Graphlnk::getNextNeighbor(int v,int w)
  {
+ 	cout<<"ÐÜÈôæÃ"<<endl;
  if(v!=-1)
  {
  Edge*p=NodeTable[v].adj;
